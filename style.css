@@ -45,7 +45,7 @@
 }
 
 .main-div {
-  background-image: url(/images/showcase.jpg);
+  background-image: url(./images/showcase.jpg);
   height: 50vh;
   position: relative;
 }
