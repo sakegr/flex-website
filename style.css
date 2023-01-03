@@ -228,17 +228,18 @@ header div h1 {
 }
 
 .abt-we1 {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
+  align-self: flex-start;
   flex: 25%;
   padding: 3%;
   margin-right: 2%;
   background-color: rgb(53, 66, 74);
-  color: azure;
+  color: azure; */
 }
 
 .form-bx {
-  width: 20rem;
+  width: 21rem;
   margin-bottom: 0.2rem;
 }
 
@@ -271,6 +272,22 @@ form h2 {
   resize: none;
 }
 
+.servis-sec {
+  /* display: flex;*/
+  /* width: 25%; */
+  display: inline-block;
+  flex: 20%;
+  background-color: rgb(53, 66, 74);
+  padding: 1.9rem;
+  margin-right: 2%;
+  height: 40vh;
+  color: azure;
+}
+.abt-info1 {
+  flex: 55%;
+  margin-left: 2%;
+}
+
 .abt-info .bas-about {
   margin-bottom: 0.5rem;
 }
@@ -287,10 +304,11 @@ form h2 {
 }
 
 .abt-main-1 {
-  height: 60vh;
+  height: 65vh;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  /* justify-content: space-around; */
+  /* align-items: flex-end; */
+  /* flex: 40%; */
   gap: 5rem;
   margin-top: 2rem;
 }
