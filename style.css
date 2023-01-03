@@ -4,15 +4,38 @@
   box-sizing: border-box;
 }
 
-.home-link:visited {
+/* .home-link:visited {
   color: rgb(151, 78, 135);
 }
 
-.home-link:hover {
-  cursor: pointer;
-  color: rgb(169, 80, 139);
-  font-size: 1.05rem;
+.about-link:visited {
+  color: rgb(151, 78, 135);
+}
+
+.servis-link:visited {
+  color: rgb(151, 78, 135);
+} */
+
+.about-link:hover {
+  font-size: 0.95rem;
   opacity: 0.8;
+  text-shadow: 0px 0.1px rgb(0, 0, 0);
+}
+
+.home-link:hover {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  text-shadow: 0px 0.1px rgb(0, 0, 0);
+}
+
+.servis-link:hover {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  text-shadow: 0px 0.1px rgb(0, 0, 0);
+}
+
+header div h1 {
+  margin-left: 0.5rem;
 }
 
 .sol-bas {
@@ -38,6 +61,7 @@
   text-decoration: none;
   padding: 5px;
   gap: 1rem 5rem;
+  margin-right: 0.5rem;
 }
 
 .baslık h1 .mor {
@@ -62,6 +86,7 @@
 }
 
 .middle-bar {
+  border-top: px solid rgb(169, 80, 139);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,9 +103,10 @@
   padding: 12px 17px;
   border-radius: 0rem;
   border-style: none;
-  background-color: rgb(241, 101, 41);
+  background-color: rgb(232, 73, 29);
   color: antiquewhite;
   box-shadow: 1px 1px black;
+  margin-right: 1rem;
 }
 
 .btn-box:hover {
@@ -96,8 +122,8 @@
 .middle-bar h1 {
   font-size: 1.2rem;
   font-weight: 700;
-  /* letter-spacing: 0.2px; */
   color: azure;
+  margin-left: 1rem;
 }
 
 .alt-section {
@@ -117,14 +143,13 @@
 }
 
 .dil-img:hover {
-  width: 25.2%;
+  width: 24.7%;
 }
 
 .dil:hover {
   color: black;
   font-weight: 900;
   font-size: 1.01rem;
-  /* text-decoration: underline; */
 }
 
 .dil:active {
@@ -170,22 +195,8 @@
   right: 0;
 }
 
-.about-link:active {
-  /* color: rgb(151, 78, 135); */
-}
-.about-link:visited {
-  /* color: rgb(151, 78, 135); */
-}
-
-.about-link:hover {
-  cursor: pointer;
-  /* color: rgb(169, 80, 139); */
-  font-size: 1.05rem;
-  opacity: 0.8;
-}
-
 .abt-main {
-  height: 60vh;
+  height: 70vh;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -198,6 +209,12 @@
   margin-left: 2%;
 }
 
+.about-info {
+  color: azure;
+  background-color: rgb(53, 66, 74);
+  padding: 1rem;
+}
+
 .abt-we {
   flex: 20%;
   padding: 2%;
@@ -206,8 +223,69 @@
   color: azure;
 }
 
-.abt-foot {
+.abt-we1 {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  flex: 25%;
+  padding: 3%;
+  margin-right: 2%;
+  background-color: rgb(53, 66, 74);
+  color: azure;
+}
+
+.form-bx {
+  width: 20rem;
+  margin-bottom: 0.2rem;
+}
+
+.form-label {
+  margin-top: 1rem;
+}
+
+.form-btn {
+  background-color: rgb(232, 73, 29);
+  color: antiquewhite;
+  border-style: none;
+  padding: 0.6rem 0.8rem;
+}
+
+.form-btn:hover {
+  color: rgb(151, 78, 135);
+  font-weight: 500;
+  font-size: 0.85rem;
+  background-color: antiquewhite;
+  cursor: pointer;
+  box-shadow: 1px 1px black;
+  opacity: 0.9;
+}
+
+form h2 {
+  margin-bottom: 0.5rem;
+}
+
+.abt-we1 textarea {
+  resize: none;
+}
+
+.abt-info .bas-about {
+  margin-bottom: 0.5rem;
+}
+
+.servis-info {
+  background-color: rgb(155, 155, 155, 0.2);
+  border-style: none;
+  border-radius: 0.1rem;
+  margin-top: 0.4rem;
+  margin-left: 0.5rem;
+  padding: 0.7rem;
+  box-shadow: 0.1px 0.1px black;
+}
+
+.abt-main-1 {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 5rem;
+  margin-top: 2rem;
 }
