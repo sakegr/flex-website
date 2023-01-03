@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+}
+
 /* .home-link:visited {
   color: rgb(151, 78, 135);
 }
@@ -279,10 +283,11 @@ form h2 {
   margin-left: 0.5rem;
   padding: 0.7rem;
   box-shadow: 0.1px 0.1px black;
+  font-size: 0.8rem;
 }
 
 .abt-main-1 {
-  height: 80vh;
+  height: 60vh;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
